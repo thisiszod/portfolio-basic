@@ -197,7 +197,7 @@ span {
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1920px) {
     nav .hamb {
         display: initial;
     }
@@ -237,6 +237,10 @@ span {
         padding: 6% 9%;
         transition: .3s right;
         border-radius: 10px;
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0px;
     }
 
     nav .nav-list li {

@@ -197,7 +197,8 @@ span {
 
 }
 
-@media screen and (max-width:1920px) {
+@media screen and (max-width:1920px) 
+{
     nav .hamb {
         display: initial;
     }
@@ -238,34 +239,34 @@ span {
         transition: .3s right;
         border-radius: 10px;
     }
-    
-    }
 
-    nav .nav-list li {
-        display: block;
-    }
+}
 
-    nav .nav-list li a {
-        display: block;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-        margin-left: 0px;
-        margin-bottom: 40px;
-    }
+nav .nav-list li {
+    display: block;
+}
 
-    nav .nav-list li.btn a {
-        position: absolute;
-        bottom: 0%;
-        right: 20%;
-        left: 20%;
-        padding: 7px 15px;
-        font-size: 14px;
-    }
+nav .nav-list li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
 
-    nav .nav-list.open {
-        right: 0;
-    }
+nav .nav-list li.btn a {
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    left: 20%;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+nav .nav-list.open {
+    right: 0;
+}
 
 }
 
@@ -317,4 +318,3 @@ h3:hover {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(mobile\ \(2\).svg);
     }
 }
-

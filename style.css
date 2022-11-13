@@ -306,7 +306,7 @@ h3:hover {
 @media screen and (max-width:600px) {
     .textlogo {
         position: relative;
-        top: 28px;
+        top: 50px;
         left: 20px;
         font-size: 30px;
     }

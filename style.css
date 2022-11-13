@@ -68,6 +68,8 @@ nav .hamb span:nth-child(2) {
 
 nav .nav-list {
     list-style: none;
+    position: relative;
+    top: -60px;
 }
 
 nav .nav-list li {
@@ -112,7 +114,7 @@ nav .nav-list li.btn:hover a {
 }
 
 .container .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: -90px;
 }
 
 .container .hero-text h1 {
@@ -295,7 +297,7 @@ h3:hover {
     -webkit-text-stroke: 2px #e04733;
     color: transparent;
     position: relative;
-    top: 110px;
+    top: 30px;
     left: 320px;
     font-size: 40px;
     font: weight 600px;
@@ -304,7 +306,7 @@ h3:hover {
 @media screen and (max-width:600px) {
     .textlogo {
         position: relative;
-        top: 50px;
+        top: 28px;
         left: 20px;
         font-size: 30px;
     }

@@ -238,9 +238,7 @@ span {
         transition: .3s right;
         border-radius: 10px;
     }
-    .bottom{
-        position: absolute;
-        bottom: 0px;
+    
     }
 
     nav .nav-list li {

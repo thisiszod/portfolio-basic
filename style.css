@@ -197,8 +197,7 @@ span {
 
 }
 
-@media screen and (max-width:1920px) 
-{
+@media screen and (max-width:1920px) {
     nav .hamb {
         display: initial;
     }
@@ -231,8 +230,8 @@ span {
         top: 90px;
         right: -65%;
         bottom: 0;
-        width: 60%;
-        height: 50%;
+        width:
+            height: 50%;
         background: black;
         z-index: 2;
         padding: 6% 9%;
@@ -268,7 +267,7 @@ nav .nav-list.open {
     right: 0;
 }
 
-}
+
 
 .input:hover {
     -webkit-text-stroke: 2px #e04733;
@@ -297,7 +296,7 @@ h3:hover {
 }
 
 .textlogo {
-    -webkit-text-stroke: 2px #e04733;
+
     color: transparent;
     position: relative;
     top: 35px;
@@ -307,14 +306,11 @@ h3:hover {
 }
 
 @media screen and (max-width:500px) {
-    .textlogo {
-        position: relative;
-        top: 50px;
-        left: 20px;
-        font-size: 30px;
-    }
+    
 
     .hero {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(mobile\ \(2\).svg);
     }
+
+  
 }
